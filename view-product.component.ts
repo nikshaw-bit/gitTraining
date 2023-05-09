@@ -11,6 +11,7 @@ import { ProductServiceService } from '../product-service.service';
 export class ViewProductComponent implements OnInit{
   
   istrue:boolean=true;
+  
   mydate=String(new Date());
   isExpired:boolean=false;
   prod:Product[];
